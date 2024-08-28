@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>El porque de las cosas</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <title>El porqué de las cosas</title>
   </head>
 
   <body>
     <header class="container-fluid bg-light">
       <nav class="navbar navbar-expand-lg navbar-light container">
-        <a class="navbar-brand m-1" href="#"> El porqué de las cosas </a>
+        <a class="navbar-brand m-1" href="../index.html">
+          El porqué de las cosas
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,11 +31,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
                 >Inicio</a
               >
             </li>
-
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -52,10 +54,10 @@
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
-                  <a class="dropdown-item" href="index.html">Preguntas</a>
+                  <a class="dropdown-item" href="../index.html">Preguntas</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="experimentos.html"
+                  <a class="dropdown-item" href="./pages/experimentos.html"
                     >Experimentos</a
                   >
                 </li>
@@ -65,33 +67,28 @@
         </div>
       </nav>
     </header>
-
-    <main class="container mt-4">
-      <h2 id="cielo_azul" class="text-center">
-        ¿Por qué el cielo es de color azul?
-      </h2>
-      <p class="text-justify">
-        El cielo es de color azul porque la luz del sol se decompone en muchos
-        colores al pasar por el aire. Aunque la luz parece blanca, en realidad,
-        está hecha de muchos colores como los arco iris. El aire tiene pequeñas
-        partículas que hacen que la luz azul se disperse por todo el cielo,
-        mientras los otros colores no se dispersan tanto. Por eso, cuando
-        miramos hacia arriba vemos el cielo de color azul.
+    <div class="container">
+      <h2 id="lluvia">¿Por qué llueve?</h2>
+      <p>
+        Imagina que el cielo es como un gran océano de aire. A veces, en este
+        océano de aire, hay pequeñas gotitas de agua que están flotando. Estas
+        gotitas son tan ligeras que no las vemos. Cuando el sol calienta la
+        tierra, el agua de los ríos, lagos y océanos se evapora. Es como cuando
+        el agua en una olla caliente se convierte en vapor. Este vapor sube
+        hacia el cielo y se mezcla con el aire. Pero, cuando el aire lleno de
+        vapor se encuentra con aire frío en el cielo, el vapor se convierte de
+        nuevo en gotitas de agua. Estas gotitas se agrupan y forman las nubes.
+        Las nubes son como gigantescas bolsas de agua en el cielo. Cuando las
+        nubes se llenan demasiado de gotitas de agua, las gotitas se caen de las
+        nubes como lluvia. Es como si las nubes estuvieran soltando el agua que
+        habían guardado.
       </p>
-      <div class="text-center">
-        <img
-          src="./recursos/luzsol.jpg"
-          id="imagen_luz"
-          class="img-fluid"
-          alt="Imagen sobre la dispersión de la luz solar"
-        />
-      </div>
-    </main>
-
-    <footer class="container-fluid bg-light text-center mt-4 py-3">
-      <p>Sitio creado como proyecto de desarrollo web</p>
-    </footer>
-
+      <img
+        src="./recursos/agualluvia.jpg"
+        alt="Ciclo del agua"
+        id="ciclo_agua"
+      />
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
