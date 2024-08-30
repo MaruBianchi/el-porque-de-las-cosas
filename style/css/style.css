@@ -1,0 +1,33 @@
+.solid {
+  background-color: #2C9FA3;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100px;
+}
+
+h2, h3, ul {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+p {
+  font-size: 100%;
+}
+
+#imagen_luz, #arbol, #ciclo_agua {
+  width: 400px;
+  height: 300px;
+}
+
+#logo {
+  background-color: #FFB914;
+  border-radius: 30px;
+}
+
+#first_button {
+  background-color: #B31237;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
