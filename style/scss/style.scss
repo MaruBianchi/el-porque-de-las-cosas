@@ -1,18 +1,31 @@
 @import "./variable";
-.solid {
-    background-color: ($primary);
-}
+
+
 
 h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:($rem + 4px)*5;
+    
 }
 
 h2 , h3 , ul{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+header {
+    position:absolute;
+    top:0;
+    z-index: 1000;
+    transition: position 0.5s;
+    
+}
 
+.custom-sticky {
+
+    position:sticky;
+    top:0;
+    transition: position 0.5s;
+
+}
 
 p {
     font-size:100%;
@@ -25,13 +38,16 @@ p {
     
       
 
-#logo {
-    background-color: ($title);
-    border-radius: ($radius);
-}    
+ 
 
 #first_button {
-    background-color: ($secondary);
-    border-radius: ($radius);
+    background-color: $secondary;
+    border-radius: $radius;
 }
 
+#hero {
+    background-color: $primary;
+    height: 100dvh;
+    position: relative;
+    z-index: 1;
+}
